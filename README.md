@@ -3,7 +3,7 @@ Vehicle System with YOLOV,VLM and OCR
 
 Bu proje, güvenlik kapılarındaki araç giriş-çıkış süreçlerini otomatize etmek için geliştirilmiş Çok Modelli (Multi-Model) bir yapay zeka sistemidir. Sistem; araç tespiti, plaka okuma ve görsel betimleme yeteneklerini birleştirerek araçların geçiş iznini yönetir.
 
-#Proje Özellikleri
+# Proje Özellikleri
 
 Bu sistem 3 farklı yapay zeka disiplinini tek bir akışta birleştirir:
 
@@ -16,7 +16,7 @@ Görsel Dil Modelleme (VLM): Aracı analiz eder ve fiziksel özellikleri hakkın
 Kural Tabanlı Erişim Kontrolü: Belirlenen kurallara göre (Kamyon yasağı, İzinli plaka listesi) kapıyı açar veya reddeder.
 
 
-#Kullanılan Teknolojiler ve Kütüphaneler
+# Kullanılan Teknolojiler ve Kütüphaneler
 
 Ultralytics YOLOv8: Yüksek hızlı ve hassas araç tespiti için.
 
@@ -30,12 +30,12 @@ OpenCV & Matplotlib: Görüntü işleme ve görselleştirme için.
 
 PyTorch: Derin öğrenme modellerinin altyapısı için.
 
-#Proje Google Colab üzerinde çalışacak şekilde tasarlanmıştır ancak yerel ortamda da çalıştırılabilir.
+# Proje Google Colab üzerinde çalışacak şekilde tasarlanmıştır ancak yerel ortamda da çalıştırılabilir.
 pip install ultralytics
 pip install easyocr
 pip install transformers torch torchvision "fiftyone[desktop]"
 
-#Nasıl Çalışır? (Sistem Mantığı)
+# Nasıl Çalışır? (Sistem Mantığı)
 Sistem aşağıdaki adımları sırasıyla uygular:
 
 Görüntü Alma: Test görselleri (COCO dataset veya kullanıcı yüklemesi) sisteme verilir.
@@ -58,7 +58,7 @@ Eğer araç Araba/Otobüs ise ve plaka İzinli Listede (Whitelist) varsa -> ✅ 
 
 Plaka listede yoksa -> ⛔ DENIED (Kayıtlı Değil)
 
-#Konfigürasyon
+# Konfigürasyon
  İzin verilen plakalar listesi
 ALLOWED_PLATES = ["16ACD433", "34TB123"]
 
