@@ -1,4 +1,17 @@
-# Vehicle-Licence-System
+# ---# Vehicle-Licence-System
+
+![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python)
+![YOLOv8](https://img.shields.io/badge/YOLOv8-Object_Detection-purple?style=for-the-badge)
+![EasyOCR](https://img.shields.io/badge/EasyOCR-Text_Recognition-green?style=for-the-badge)
+
+<br>
+
+<div align="center">
+  <img src="assets/yasakli_arac_ornegi.png" width="700" alt="Sistem Çıktısı">
+  <p><em>Yapay zeka tabanlı araç tanıma, plaka okuma ve erişim kontrol sistemi.</em></p>
+</div>
+
+
 Vehicle System with YOLOV,VLM and OCR
 
 Bu proje, güvenlik kapılarındaki araç giriş-çıkış süreçlerini otomatize etmek için geliştirilmiş Çok Modelli (Multi-Model) bir yapay zeka sistemidir. Sistem; araç tespiti, plaka okuma ve görsel betimleme yeteneklerini birleştirerek araçların geçiş iznini yönetir.
