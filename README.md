@@ -44,11 +44,13 @@ OpenCV & Matplotlib: Görüntü işleme ve görselleştirme için.
 PyTorch: Derin öğrenme modellerinin altyapısı için.
 
 # Proje Google Colab üzerinde çalışacak şekilde tasarlanmıştır ancak yerel ortamda da çalıştırılabilir.
-```bash
+
+'''bash
 pip install ultralytics
 pip install easyocr
 pip install transformers torch torchvision "fiftyone[desktop]"
 '''
+
 
 # Nasıl Çalışır? (Sistem Mantığı)
 Sistem aşağıdaki adımları sırasıyla uygular:
